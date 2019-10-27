@@ -19,6 +19,21 @@ Note that there are two versions: one with Armadillo `with_arma` and one without
 The `no_arma` version only has the `pisum` and `fib` benchmarks.
 
 
+## The results
+
+
+![Pisum benchmark results](results/plot_pisum.png)
+
+
+![Fib benchmark results](results/plot_fib.png)
+
+
+![Randmatstat benchmark results](results/plot_randmatstat.png)
+
+
+Note that there was no Rcpp result for `randmatstat`, because of issues installing `RcppAramdillo` along with the regular Armadillo library on OSX, so the Rcpp result was recorded as 0.
+
+
 ## Running the benchmarks
 
 To run the benchmarks:
